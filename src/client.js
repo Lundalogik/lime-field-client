@@ -75,7 +75,7 @@ module.exports = function (base_url, user, password) {
       });
   };
 
-  client.command = command(c);
+  client.command = command(client);
 
   return client;
 };
